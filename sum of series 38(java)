@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+
+        int n;
+        Scanner s=new Scanner(System.in);
+        n=s.nextInt();
+         int i=1;
+
+    int p=2,sum=0;;
+
+    while(i<=n){
+
+        sum+=p;
+
+        p=(p*10)+2;
+
+        i++;
+
+    }
+
+    System.out.printf("%d",sum);
+
+       
+    }
+}
+        
