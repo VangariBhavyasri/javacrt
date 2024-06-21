@@ -1,0 +1,32 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int u;
+        u=s.nextInt();
+          
+    if(u<=200){
+        double c1=0.5;
+        double a=u*c1;
+        System.out.println("Rs."+(int)a);
+    }
+    else if(u<=400){
+        double c2=0.65;
+        double b=u*c2+100;
+        System.out.println("Rs."+(int)b);
+    }
+    else if(u<=600){
+        double c3=0.80;
+        double c=u*c3+200;
+        System.out.println("Rs."+(int)c);
+    }
+    else {
+        double c4=1.25;
+        double d=u*c4+425;
+        System.out.println("Rs."+(int)d);
+    }
+    }
+}
