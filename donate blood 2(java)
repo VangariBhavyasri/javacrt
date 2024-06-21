@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int age,w;
+        float h;
+        age=s.nextInt();
+        w=s.nextInt();
+        h=s.nextFloat();
+    
+    if(age>=18 && w>=45 && h>=5.5)
+    {
+        System.out.println("He or She can donate blood");
+    }
+    else
+    {
+        System.out.println("He or She unable to donate blood");
+    }
+    }
+}
