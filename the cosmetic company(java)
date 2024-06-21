@@ -1,0 +1,31 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+
+        int n;
+        Scanner s=new Scanner(System.in);
+        n=s.nextInt();
+        
+    int z=n%10;
+
+    while(n>0){
+
+        int x=n%10;
+
+        if(x<z){
+
+            z=x;
+
+        }
+
+        n=n/10;
+
+    }
+
+    System.out.printf("%d",z);
+        
+    }
+}
