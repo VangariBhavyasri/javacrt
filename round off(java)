@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+    float x;
+    x=s.nextFloat();
+    System.out.printf("%d\n",Math.round(x*10)/10);
+     System.out.printf("%.1f\n",Math.ceil(x));
+    System.out.printf("%.1f",Math.floor(x));
+    }
+}
+
+        
