@@ -1,0 +1,41 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+    public static void main(String args[] ) throws Exception {
+        Scanner s=new Scanner(System.in);
+        int t;
+        t=s.nextInt();
+        while(t>0)
+        {
+            int a,b;
+            a=s.nextInt();
+            char c=s.next().charAt(0);
+            b=s.nextInt();            
+        switch(c)
+        {
+            case '>': if(a > b)
+                System.out.println("Right");
+                else
+                 System.out.println("Wrong");   
+                break;
+            case '<': if(a < b)
+                 System.out.println("Right");
+                else
+                System.out.println("Wrong");
+                break;
+            default:
+                if(a==b)
+                System.out.println("Right");
+                else
+                System.out.println("Wrong");
+                break;
+                                   
+        }
+            t--;
+        }
+            }
+}
