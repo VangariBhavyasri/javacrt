@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+           int numSize;
+   numSize=s.nextInt();
+    
+    int arr[]=new int[numSize];
+    for (int i = 0; i < numSize; i++) {
+        arr[i]=s.nextInt();
+    }
+    
+    int sum = 0;
+    for (int i = 0; i < numSize; i++) {
+        sum += arr[i];
+        System.out.printf("%d ",sum);
+    }
+    }
+}
