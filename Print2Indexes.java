@@ -28,7 +28,7 @@ System.out.print(i+" ");
 break;
 }
 }
-if(c==1)
+if(c==0)
 {
 System.out.print("-1  -1");  
 }
